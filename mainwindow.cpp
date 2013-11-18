@@ -89,13 +89,13 @@ void MainWindow::contextMenuEvent(QContextMenuEvent *event)
 }
 void MainWindow::createActions()
 {
-    m_ChangeEquation = new QAction("Change Equation",this);
+    m_ChangeEquation = new QAction("Change Plot",this);
     m_ChangeEquation->setStatusTip(tr("To change the function , you want to plot"));
     connect(m_ChangeEquation, SIGNAL(triggered()), this, SLOT(changeActionclicked()));
-    m_DeleteEquation = new QAction("Delete Equation",this);
+    m_DeleteEquation = new QAction("Delete Plot",this);
     m_DeleteEquation->setStatusTip(tr("To delete the function , you want to plot"));
     connect(m_DeleteEquation, SIGNAL(triggered()), this, SLOT(deleteActionclicked()));
-    m_HideEquation = new QAction("Hide Equation",this);
+    m_HideEquation = new QAction("Hide/Show Plot",this);
     m_HideEquation->setStatusTip(tr("To hide the function , you want to plot"));
     connect(m_HideEquation, SIGNAL(triggered()), this, SLOT(hideActionclicked()));
 }
