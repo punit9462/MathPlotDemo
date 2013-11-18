@@ -19,8 +19,8 @@ http://api.kde.org/4.x-api/kdeedu-apidocs/analitza/html/index.html
 
 After building Analitza successfully ,                                                                               
 Enter the following commands in the command prompt                                                                  
-1) git clone git://github.com/punit9462/MathPlot.git                                                                   
-2) cd MathPlot                                                                                                
+1) git clone git://github.com/punit9462/MathPlotDemo.git                                                                   
+2) cd MathPlotDemo                                                                                                
 3) mkdir build                                                                                                          
 4) cd build                                                                                                          
 5) cmake ..                                                                                                                   
