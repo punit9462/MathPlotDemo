@@ -111,7 +111,6 @@ void MainWindow::afteritemchanged2(QListWidgetItem *item)
 }
 void MainWindow::changeActionclicked()
 {
-    m_listwidget->setParent(m_changeActionDialogue);
     m_changeActionDialogue = new QWidget(this);
     m_changeActionDialogue->resize(200,200);
     QPoint point;
